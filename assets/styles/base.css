@@ -1,0 +1,38 @@
+
+:root {
+    --black: #272727;
+    --yellow: #ffc600;
+    --white: #ffffff;
+}
+
+html {
+    box-sizing: border-box;    
+    font-size: 10px;
+    color: var(--white);
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    height: 100%;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {   
+    margin: 0;
+    background-image: url(../images/topography.svg),
+     linear-gradient(to left, #f93d66, #6d47d9);
+     background-attachment: fixed;    
+    padding: 50px;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
